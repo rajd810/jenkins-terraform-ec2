@@ -16,7 +16,7 @@ pipeline {
                         dir("terraform")
                         {
                             git(
-                                url: "https://github.com/rajd810/flask_with_docker.git",
+                                url: "https://github.com/rajd810/jenkins-terraform-ec2.git",
                                 branch: "main",
                                 changelog: true,
                                 poll: true
